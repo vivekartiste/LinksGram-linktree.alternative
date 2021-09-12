@@ -1,0 +1,143 @@
+/* Style Settings */
+
+@import url('https://fonts.googleapis.com/css?family=Product%20Sans:400,700&display=swap');
+:root {
+    --font: 'Prodcut Sans', 'Product Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(30deg, #e95950,#bc2a8d, #fccc63, #8a3ab9);
+	background-size: 450% 450%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.theme-light {
+    --color-main: #fff;
+    --color-text: #fff;
+ }
+
+
+#Photo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 8px auto 13px;
+    border-radius: 25%;
+}
+
+#Name {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+    font-family: 'Product Sans';
+    width: 100%;
+    text-align: center;
+}
+
+#title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#linksbutton {
+    max-width: 580px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
+.links {
+    display: block;
+        background-color: rgba(255, 255, 255, 0.0 );
+    color: var(--color-text);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--color-main) 2px;
+}
+
+.links:hover {
+    background-color: #fff;
+    color: #000
+    border: solid var(--color-main) 2px;
+}
+
+
+.gears {
+    width: auto;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+.gear {
+    display: inline-block;
+        background-color: rgba(255, 255, 255, 0.0 );
+    color: var(--color-text);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--color-main) 2px;
+}
+
+.gear:hover {
+    background-color: #fff;
+    color: #000;
+    border: solid var(--color-main) 2px;
+}
+
+.footervalue {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.footervalue a {
+    text-decoration:none;
+}
+
+#footertext {
+    color: var(--color-main);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
